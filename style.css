@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+button{
+    padding: 21px 24px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: #0D1321;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+p{
+    font-size: 16px;
+    color: #0d13217b;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-section{
+    background-image: url(assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    height: 652px;
+    
+}
+.banner-section img{
+    margin-top: 20px;
+}
+.banner-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.banner-section, .developement-section p{
+    text-align: center;
+}
+
+/* web deveopement section */
+.developement-heading{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.coding, .web-system{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.web-left-heading, .web-system-heading{
+    font-size: 24px;
+    color: #0d132192;
+}
+
+.web-left, .web-system-right{
+    width: 50%;
+}
+/* .web-right{
+    width: 50%;
+} */
+ .coding-btn, .web-system-btn{
+    color: #0d13216d;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.416);
+ }
+
+ /* my inspiration section */
+ .inspiration-section, .target-section{
+    text-align: center;
+ }
+
+ /* SKILLS SECTION */
+ .skills-section{
+    display: flex;
+ }
+ .skill{
+    width: 364px;
+    height: 299px;
+ }
+
+.html{
+    background-color: #ff4b1e18;
+    padding: 40px;
+}
+.css{
+    background-color: #004de823;
+    padding: 40px;
+}
+.js{
+    background-color: #ffdd001a;
+    padding: 40px;
+}
+/* next target secton */
+.next-target-section{
+    text-align: center;
+}
+.targets{
+    
+}
+
+.target{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 40PX;
+}
+
+/* footer */
+footer{
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer input{
+    width: 548px;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer button{
+    background-color: white;
+    color: #0d1321aa;
+    padding: 14px;
+}
+footer p{
+    color: white;
+}
+
